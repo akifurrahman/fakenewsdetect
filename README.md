@@ -31,7 +31,7 @@ In the era of rapid information dissemination, fake news has become a significan
 ## 💻 How to Run the Project:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/akifurrahman/fake-news-detection.git
+    git clone https://github.com/akifurrahman/fakenewsdetect.git
     ```
 2. Install the necessary dependencies:
     ```bash
