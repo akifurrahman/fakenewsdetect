@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Sign-in</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+
+<!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../static/css/login.css" rel="stylesheet">
+
+
+    
+  </head>
+  <body class="text-center">
+    <div class="background-image"></div>
+<main class="form-signin w-100 m-auto">
+  <!-- <form action="first.html">
+    <img class="mb-4 logo" src="./logo2.PNG" alt="" width="72" height="57">
+    <h1 class="h3 mb-4 font-weight-bold">Please Sign in here</h1>
+
+    <div class="form-floating">
+
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    </div>
+    <div class="form-floating">
+
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg button" type="submit">Sign in</button>
+  </form> -->
+  <!-- <form action="/first.html" class="was-validated"> -->
+  <form action="/first.html">
+    
+    <script>
+      const email = document.getElementById("mail");
+
+email.addEventListener("input", (event) => {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("Enter a valid email address!");
+  } else {
+    email.setCustomValidity("");
+  }
+});
+    </script>
+
+    <div class="mb-3 mt-3">
+      <h1 class="h3 mb-4 font-weight-bold">Please Sign in here</h1>
+      <label for="uname" class="form-label">Username:</label>
+      <input type="email" class="form-control" id="mail" placeholder="Enter username" name="uname" required>
+      <!-- <div class="valid-feedback">Valid.</div> -->
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <!-- <div class="valid-feedback">Valid.</div> -->
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    
+    <!-- <button type="submit" onclick="window.location.href = 'first.html';" class="btn w-100 btn-lg button">Sign in</button> -->
+    
+
+    <button type="submit" class="btn w-100 btn-lg button">Sign in</button>
+  </form>
+  
+</main>
+
+
+    
+  </body>
+</html>
+
+
+
+

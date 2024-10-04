@@ -1,0 +1,10 @@
+pip install numpy
+pip install Pillow
+pip install Keras
+pip install tensorflo
+pip install Flask
+pip install Werkzeug
+pip install gunicorn
+
+
+python 3.8 (64 bit) version
