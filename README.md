@@ -70,7 +70,6 @@ Non-trainable params: 0
 ```
 
 ## 🔗 Future Enhancements:
-- Integrating **Word2Vec** or **GloVe** for pre-trained embeddings.
 - Extending the model to work with multiple languages.
 - Improving user interface for better user experience.
 
