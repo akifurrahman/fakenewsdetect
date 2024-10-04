@@ -80,6 +80,6 @@ Feel free to customize the project and make it your own. Contributions and sugge
 ---
 
 **Contributors:**  
-*Akif ur Rahman Name* - [GitHub Profile](https://github.com/akifurrahman)
+*Akif ur Rahman* - [GitHub Profile](https://github.com/akifurrahman)
 
 ---
