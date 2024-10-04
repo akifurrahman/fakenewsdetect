@@ -1,7 +1,3 @@
-Here's a beautified version of the summary, well-suited for a GitHub README file:
-
----
-
 # 📰 Fake News Detection Using Deep Learning
 
 This project aims to build a **Fake News Detection System** using a **Convolutional Neural Network (CNN)**. The system classifies news articles as either **"Real"** or **"Fake"** based on their content. The project includes model development, dataset preprocessing, and deployment via a web interface.
@@ -85,8 +81,6 @@ Feel free to customize the project and make it your own. Contributions and sugge
 ---
 
 **Contributors:**  
-*Your Name* - [GitHub Profile](https://github.com/your-username)
+*Akif ur Rahman Name* - [GitHub Profile](https://github.com/akifurrahman)
 
 ---
-
-This beautified version has headings, emojis, code blocks, and structured sections for easy readability on GitHub. It’s clean and well-organized, making it easy for others to understand and contribute to the project.
