@@ -78,8 +78,3 @@ Non-trainable params: 0
 Feel free to customize the project and make it your own. Contributions and suggestions are always welcome!
 
 ---
-
-**Contributors:**  
-*Akif ur Rahman* - [GitHub Profile](https://github.com/akifurrahman)
-
----
